@@ -1,6 +1,6 @@
 import cx_Freeze
 
-executables =[cx_Freeze.Executable("Mechanical Keyboard Simulator.py")]
+executables =[cx_Freeze.Executable("Mechanical Keyboard Simulator Launcher.py")]
 
 cx_Freeze.setup(
     name = 'Mechanical keyboard simulator',

@@ -11,6 +11,8 @@ pygame.display.set_icon(icon)
 pygame.display.set_caption('MECHANICAL KEYBOARD SIMULATOR')
 screen = pygame.display.set_mode((0, 0), pygame.RESIZABLE)
 
+# f = open('background color.txt', 'r')
+# bgColor = f.read()
 myFont = pygame.font.Font('fonts\FiraMono-Regular.otf', 200)
 myFont1 = pygame.font.Font('fonts\Gotham-Light.otf', 25)
 color = (255, 255, 255)
@@ -38,7 +40,7 @@ tx = 1360
 f= open("Here is your text.txt","w")
 
 while True:
-    screen.fill((105, 26, 115))
+    screen.fill((105, 26, 115)) 
     text = myFont.render(x, 1, color)
     screen.blit(text, (tx,300))
     watermark = myFont1.render('Made by VRaj..', 1, color)
