@@ -38,7 +38,7 @@ tx = 1360
 f= open("Here is your text.txt","w")
 
 while True:
-    screen.fill((69,69,69))
+    screen.fill((105, 26, 115))
     text = myFont.render(x, 1, color)
     screen.blit(text, (tx,300))
     watermark = myFont1.render('Made by VRaj..', 1, color)
